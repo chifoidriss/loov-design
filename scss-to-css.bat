@@ -1,0 +1,1 @@
+sass scss/bootstrap.scss:css/bootstrap.min.css -s compressed --no-source-map --watch

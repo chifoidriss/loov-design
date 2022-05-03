@@ -1,0 +1,117 @@
+.main {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    
+    header {
+        .navbar {
+            background-color: transparent;
+            
+            .navbar-brand {
+                color: #FFF;
+                font-weight: 600;
+                font-size: 26px;
+                text-transform: uppercase;
+            }
+
+            .menu {
+                .menu-item {
+                    margin-left: 1rem;
+                    text-decoration: none;
+                    color: #FFF;
+                    font-weight: 500;
+                }
+            }
+        }
+        
+        
+        .hero {
+            padding: 40px 0;
+        }
+    }
+
+    .bg-section {
+        background-image: url(../formes/BgSectionTwo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 300px;
+        position: relative;
+        z-index: 1000000;
+    }
+
+    .content {
+        background-color: #FFF;
+        // position: relative;
+        // top: -300px;
+        
+        .about {
+            color: #000;
+            background-color: #FFF;
+            padding-bottom: 0;
+            margin-bottom: 0;
+    
+            .title {
+                text-transform: uppercase;
+            }
+        }
+    
+        .footer {
+            .content-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 2rem 0;
+    
+                .images {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        margin: 0 2rem;
+                        height: 32px;
+                    }
+                }
+                
+            }
+
+            .sub-section-1, .sub-section-2 {
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 200px;
+            }
+            .sub-section-1 {
+                background-image: url(../formes/vector1.png);
+                background-position: bottom center;
+            }
+            .sub-section-2 {
+                background-image: url(../formes/vector2.png);
+                background-position: top center;
+            }
+        }
+    }
+}
+
+.btn {
+    font-weight: 500;
+
+}
+.btn-outline {
+    border-color: #FFF !important;
+    color: #FFF !important;
+}
+
+
+.linear-bg {
+    background: linear-gradient(109.51deg, #940D39 0%, #3F008F 98.95%);
+    color: #FFF;
+}
+.text-justify {
+    text-align: justify;
+}
+.fixed-width {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
